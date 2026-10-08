@@ -1,0 +1,72 @@
+<div class="categories">
+
+  @for (category of categories; track category) {
+    <button
+      [class.active]="selectedCategory === category"
+      (click)="selectCategory(category)">
+      {{ category }}
+    </button>
+  }
+
+</div>
+
+<div
+  class="card-container"
+  [class.flipped]="showAnswer"
+  (click)="flipCard()">
+
+  <div class="card-inner">
+
+    <div class="card-front">
+  <span class="category">
+    {{ filteredCards[currentIndex].category }}
+  </span>
+
+      <h2>{{ filteredCards[currentIndex].german }}</h2>
+    </div>
+
+    <div class="card-back">
+  <span class="category">
+    {{ filteredCards[currentIndex].category }}
+  </span>
+
+      <h2>{{ filteredCards[currentIndex].english }}</h2>
+    </div>
+
+  </div>
+
+</div>
+
+<p>Click the card or press Space to reveal the answer</p>
+
+<div class="shortcuts">
+  <span>← Previous</span>
+  <span>→ Next</span>
+  <span>Space Flip</span>
+</div>
+
+<div class="navigation">
+
+  <button
+    (click)="previousCard(); $event.stopPropagation()"
+    [disabled]="currentIndex === 0">
+    Previous
+  </button>
+
+  <span>
+    {{ currentIndex + 1 }} / {{ filteredCards.length }}
+  </span>
+
+  <button
+    (click)="nextCard(); $event.stopPropagation()"
+    [disabled]="currentIndex === filteredCards.length - 1">
+    Next
+  </button>
+
+</div>
+
+<button
+  class="shuffle-button"
+  (click)="shuffleCards(); $event.stopPropagation()">
+  🔀 Shuffle
+</button>
