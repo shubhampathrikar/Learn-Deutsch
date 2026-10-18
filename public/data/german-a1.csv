@@ -1,0 +1,204 @@
+﻿id,german,english,category
+1,Die Nudel,Noodle,Chapter 1. Guten Tag!
+2,Der Koffer,Suitcase,Chapter 1. Guten Tag!
+3,Die Autobahn,Highway,Chapter 1. Guten Tag!
+4,Das Butterbrot,Bread with butter,Chapter 1. Guten Tag!
+5,Die Flasche,Bottle,Chapter 1. Guten Tag!
+6,Das Würstchen,Sausage,Chapter 1. Guten Tag!
+7,Das Handtuch,Towel,Chapter 1. Guten Tag!
+8,Die Begrüßungen,Greetings,Chapter 1. Guten Tag!
+9,Hallo,Hello,Chapter 1. Guten Tag!
+10,Grüß dich!,Greet you,Chapter 1. Guten Tag!
+11,Grüß gott,Greet good,Chapter 1. Guten Tag!
+12,Servus,Hello,Chapter 1. Guten Tag!
+13,Moin moin,Hello,Chapter 1. Guten Tag!
+14,Guten Morgen,Good morning,Chapter 1. Guten Tag!
+15,Guten Tag,Good day,Chapter 1. Guten Tag!
+16,Guten Abend,Good Evening,Chapter 1. Guten Tag!
+17,Gute Nacht,Good night,Chapter 1. Guten Tag!
+18,Tschüss!,Bye,Chapter 1. Guten Tag!
+19,Aufwiedersehen!,See you again,Chapter 1. Guten Tag!
+20,aufwiederhören,Hear from you again,Chapter 1. Guten Tag!
+21,Bis bald,See you soon,Chapter 1. Guten Tag!
+22,Bis später,See you later,Chapter 1. Guten Tag!
+23,Bis dann,See you than,Chapter 1. Guten Tag!
+24,Deutsch,German,Chapter 1. Guten Tag!
+25,Ja,Yes,Chapter 1. Guten Tag!
+26,Nein,No,Chapter 1. Guten Tag!
+27,Klar,Clear,Chapter 1. Guten Tag!
+28,Alles,All,Chapter 1. Guten Tag!
+29,Entschuldigen Sie,Excuse me (Formal),Chapter 1. Guten Tag!
+30,Entschuldigung!,Excuse me (Informal),Chapter 1. Guten Tag!
+31,Bitter,Please,Chapter 1. Guten Tag!
+32,Danke,Thank you,Chapter 1. Guten Tag!
+33,Dankeschön,Thank you so much,Chapter 1. Guten Tag!
+34,Vielen Dank,Thank you so much,Chapter 1. Guten Tag!
+35,Bitteschön,Welcome,Chapter 1. Guten Tag!
+36,Es tut mir leid,I am sorry,Chapter 1. Guten Tag!
+37,Freut mich,Nice to meet you,Chapter 1. Guten Tag!
+38,Ich,I,Chapter 1. Guten Tag!
+39,du,You (informal),Chapter 1. Guten Tag!
+40,Er,He,Chapter 1. Guten Tag!
+41,es,it,Chapter 1. Guten Tag!
+42,sie,she/they,Chapter 1. Guten Tag!
+43,wir,we,Chapter 1. Guten Tag!
+44,ihr,you all,Chapter 1. Guten Tag!
+45,Sie,You (formal),Chapter 1. Guten Tag!
+46,Kommen,To come,Chapter 1. Guten Tag!
+47,Wohnen,To live,Chapter 1. Guten Tag!
+48,Trinken,To drink,Chapter 1. Guten Tag!
+49,Spielen,To play,Chapter 1. Guten Tag!
+50,Lernen,To learn,Chapter 1. Guten Tag!
+51,Heißen,To be called,Chapter 1. Guten Tag!
+52,Sprechen,To speak,Chapter 1. Guten Tag!
+53,Sprachen,Languages,Chapter 1. Guten Tag!
+54,Vorname,First Name,Chapter 1. Guten Tag!
+55,Nachname,Last name,Chapter 1. Guten Tag!
+56,Zahlen,Numbers,Chapter 1. Guten Tag!
+57,Buchstaben,Letter (of Alphabet),Chapter 1. Guten Tag!
+58,null,0,Chapter 1. Guten Tag!
+59,eins,1,Chapter 1. Guten Tag!
+60,zwei,2,Chapter 1. Guten Tag!
+61,drei,3,Chapter 1. Guten Tag!
+62,vier,4,Chapter 1. Guten Tag!
+63,fünf,5,Chapter 1. Guten Tag!
+64,sechs,6,Chapter 1. Guten Tag!
+65,sieben,7,Chapter 1. Guten Tag!
+66,acht,8,Chapter 1. Guten Tag!
+67,neun,9,Chapter 1. Guten Tag!
+68,zehn,10,Chapter 1. Guten Tag!
+69,elf,11,Chapter 1. Guten Tag!
+70,zwölf,12,Chapter 1. Guten Tag!
+71,dreizehn,13,Chapter 1. Guten Tag!
+72,vierzehn,14,Chapter 1. Guten Tag!
+73,fünfzehn,15,Chapter 1. Guten Tag!
+74,sechzehn,16,Chapter 1. Guten Tag!
+75,siebzehn,17,Chapter 1. Guten Tag!
+76,achtzehn,18,Chapter 1. Guten Tag!
+77,neunzehn,19,Chapter 1. Guten Tag!
+78,zwanzig,20,Chapter 1. Guten Tag!
+79,hundert,100,Chapter 1. Guten Tag!
+80,tausend,1000,Chapter 1. Guten Tag!
+81,Telefonnummern,Telephone number,Chapter 1. Guten Tag!
+82,Deutschland,Germany,Chapter 1. Guten Tag!
+83,Österreich,Austria,Chapter 1. Guten Tag!
+84,Schweiz,Switzerland,Chapter 1. Guten Tag!
+85,Italien,Italy,Chapter 1. Guten Tag!
+86,Frankreich,France,Chapter 1. Guten Tag!
+87,Mexiko,Mexico,Chapter 1. Guten Tag!
+88,Griechenland,Greece,Chapter 1. Guten Tag!
+89,Polen,Poland,Chapter 1. Guten Tag!
+90,Polnisch,Polish,Chapter 1. Guten Tag!
+91,Englisch,English,Chapter 1. Guten Tag!
+92,Italienisch,Italian,Chapter 1. Guten Tag!
+93,Spanisch,Spanish,Chapter 1. Guten Tag!
+94,Portugiesisch,Portuguese,Chapter 1. Guten Tag!
+95,Arabisch,Arabic,Chapter 1. Guten Tag!
+96,Ungarisch,Hungarian,Chapter 1. Guten Tag!
+97,Griechisch,Greek,Chapter 1. Guten Tag!
+98,Französisch,French,Chapter 1. Guten Tag!
+99,"der Name, -n",Name,Chapter 1. Guten Tag!
+100,mein,my,Chapter 1. Guten Tag!
+101,Der Freunde,friend,"Chapter 2. Freunde, Kollegen und ich!"
+102,Der Kollege,Colleague,"Chapter 2. Freunde, Kollegen und ich!"
+103,gern,to like,"Chapter 2. Freunde, Kollegen und ich!"
+104,fotografieren,Photography,"Chapter 2. Freunde, Kollegen und ich!"
+105,Singen,to sing,"Chapter 2. Freunde, Kollegen und ich!"
+106,Reisen,to travel,"Chapter 2. Freunde, Kollegen und ich!"
+107,Kochen,to cook,"Chapter 2. Freunde, Kollegen und ich!"
+108,Schwimmen,to swim,"Chapter 2. Freunde, Kollegen und ich!"
+109,Gehen,to go,"Chapter 2. Freunde, Kollegen und ich!"
+110,Tanzen,to dance,"Chapter 2. Freunde, Kollegen und ich!"
+111,Lesen,to learn,"Chapter 2. Freunde, Kollegen und ich!"
+112,Joggen,to jog,"Chapter 2. Freunde, Kollegen und ich!"
+113,Machen,to do / to make,"Chapter 2. Freunde, Kollegen und ich!"
+114,Schreiben,to write,"Chapter 2. Freunde, Kollegen und ich!"
+115,Kennen,to know,"Chapter 2. Freunde, Kollegen und ich!"
+116,Sagen,to say,"Chapter 2. Freunde, Kollegen und ich!"
+117,Arbeiten,to work,"Chapter 2. Freunde, Kollegen und ich!"
+118,das Buch,book,"Chapter 2. Freunde, Kollegen und ich!"
+119,lieben,to love,"Chapter 2. Freunde, Kollegen und ich!"
+120,das Hobby,hobby,"Chapter 2. Freunde, Kollegen und ich!"
+121,die Leute,people,"Chapter 2. Freunde, Kollegen und ich!"
+122,Herr,Mr.,"Chapter 2. Freunde, Kollegen und ich!"
+123,die Frau,Ms. / Wife,"Chapter 2. Freunde, Kollegen und ich!"
+124,der Mann,Husband,"Chapter 2. Freunde, Kollegen und ich!"
+125,hören,to hear,"Chapter 2. Freunde, Kollegen und ich!"
+126,kino,Cinema,"Chapter 2. Freunde, Kollegen und ich!"
+127,die Woche,Week,"Chapter 2. Freunde, Kollegen und ich!"
+128,das Wochenende,Weekend,"Chapter 2. Freunde, Kollegen und ich!"
+129,Montag,Monday,"Chapter 2. Freunde, Kollegen und ich!"
+130,Dienstag,Tuesday,"Chapter 2. Freunde, Kollegen und ich!"
+131,Mittwoch,Wednesday,"Chapter 2. Freunde, Kollegen und ich!"
+132,Donnerstag,Thrusday,"Chapter 2. Freunde, Kollegen und ich!"
+133,Freitag,Friday,"Chapter 2. Freunde, Kollegen und ich!"
+134,Samstag,Saturday,"Chapter 2. Freunde, Kollegen und ich!"
+135,Sonntag,Sunday,"Chapter 2. Freunde, Kollegen und ich!"
+136,der Tag,Day,"Chapter 2. Freunde, Kollegen und ich!"
+137,die Musik,Music,"Chapter 2. Freunde, Kollegen und ich!"
+138,wirklich,Really,"Chapter 2. Freunde, Kollegen und ich!"
+139,leider,Unfortunately,"Chapter 2. Freunde, Kollegen und ich!"
+140,das Restaurant,Restaurant,"Chapter 2. Freunde, Kollegen und ich!"
+141,das Café,Café,"Chapter 2. Freunde, Kollegen und ich!"
+142,das Schwimmbad,Swimming Pool,"Chapter 2. Freunde, Kollegen und ich!"
+143,das Stadion,Stadium,"Chapter 2. Freunde, Kollegen und ich!"
+144,das Theater,Theater,"Chapter 2. Freunde, Kollegen und ich!"
+145,das Museum,Museum,"Chapter 2. Freunde, Kollegen und ich!"
+146,oder,or,"Chapter 2. Freunde, Kollegen und ich!"
+147,aber,but,"Chapter 2. Freunde, Kollegen und ich!"
+148,für,for,"Chapter 2. Freunde, Kollegen und ich!"
+149,der Beruf,Profession,"Chapter 2. Freunde, Kollegen und ich!"
+150,der Taxifahrer,Taxi Driver (Male),"Chapter 2. Freunde, Kollegen und ich!"
+151,die Taxifahrerin,Taxi Driver (Female),"Chapter 2. Freunde, Kollegen und ich!"
+152,der Student,Student (Male),"Chapter 2. Freunde, Kollegen und ich!"
+153,die Studentin,Student (Female),"Chapter 2. Freunde, Kollegen und ich!"
+154,der Arzt,Doctor (Male),"Chapter 2. Freunde, Kollegen und ich!"
+155,die Ärztin,Doctor (Female),"Chapter 2. Freunde, Kollegen und ich!"
+156,der Kellner,Waiter (Male),"Chapter 2. Freunde, Kollegen und ich!"
+157,die Kellnerin,Waiter (Female),"Chapter 2. Freunde, Kollegen und ich!"
+158,der Lehrer,Teacher (Male),"Chapter 2. Freunde, Kollegen und ich!"
+159,die Lehrerin,Teacher (Female),"Chapter 2. Freunde, Kollegen und ich!"
+160,das Auto,Car,"Chapter 2. Freunde, Kollegen und ich!"
+161,das Geld,Money,"Chapter 2. Freunde, Kollegen und ich!"
+162,die Straße,Road,"Chapter 2. Freunde, Kollegen und ich!"
+163,das Glas,Glass,"Chapter 2. Freunde, Kollegen und ich!"
+164,der Stift,Pen,"Chapter 2. Freunde, Kollegen und ich!"
+165,der computer,computer,"Chapter 2. Freunde, Kollegen und ich!"
+166,das medikament,Medicine,"Chapter 2. Freunde, Kollegen und ich!"
+167,die Rechnung,Receipt,"Chapter 2. Freunde, Kollegen und ich!"
+168,der Schlüssel,Key,"Chapter 2. Freunde, Kollegen und ich!"
+169,die Spritze,injection,"Chapter 2. Freunde, Kollegen und ich!"
+170,die Tablette,tablet,"Chapter 2. Freunde, Kollegen und ich!"
+171,pro (Woche),per week,"Chapter 2. Freunde, Kollegen und ich!"
+172,warte,wait,"Chapter 2. Freunde, Kollegen und ich!"
+173,meistens,mostlz,"Chapter 2. Freunde, Kollegen und ich!"
+174,Frei,free,"Chapter 2. Freunde, Kollegen und ich!"
+175,das Krankenhaus,Hospital,"Chapter 2. Freunde, Kollegen und ich!"
+176,das Zimmer,Room,"Chapter 2. Freunde, Kollegen und ich!"
+177,der Krankenpfleger,nurse,"Chapter 2. Freunde, Kollegen und ich!"
+178,das Jahr,Year,"Chapter 2. Freunde, Kollegen und ich!"
+179,der Kilometer ,Kilometer,"Chapter 2. Freunde, Kollegen und ich!"
+180,die Stunde,hour,"Chapter 2. Freunde, Kollegen und ich!"
+181,der Infomatiker,Computer Scientist (M),"Chapter 2. Freunde, Kollegen und ich!"
+182,die Infomatikerin,Computer Scientist (F),"Chapter 2. Freunde, Kollegen und ich!"
+183,der Ingenieur,Engineer (M),"Chapter 2. Freunde, Kollegen und ich!"
+184,die Ingenieurin,Engineer (F),"Chapter 2. Freunde, Kollegen und ich!"
+185,der Verkäufer,Seller (M),"Chapter 2. Freunde, Kollegen und ich!"
+186,die Verkäuferin,Seller (F),"Chapter 2. Freunde, Kollegen und ich!"
+187,der Architekt,Architect (M),"Chapter 2. Freunde, Kollegen und ich!"
+188,die Architektin,Architect (F),"Chapter 2. Freunde, Kollegen und ich!"
+189,der Friseur,Hairdresser (M),"Chapter 2. Freunde, Kollegen und ich!"
+190,die Friseurin,Hairdresser (F),"Chapter 2. Freunde, Kollegen und ich!"
+191,das Seminar,Seminar,"Chapter 2. Freunde, Kollegen und ich!"
+192,die Universität,University,"Chapter 2. Freunde, Kollegen und ich!"
+193,die Patientin,Patient (F),"Chapter 2. Freunde, Kollegen und ich!"
+194,das Taxi,Taxi,"Chapter 2. Freunde, Kollegen und ich!"
+195,der Geburtstag,Birthday,"Chapter 2. Freunde, Kollegen und ich!"
+196,das Geburtsdatum,Date of birth,"Chapter 2. Freunde, Kollegen und ich!"
+197,der Geburtsort,Birthplace,"Chapter 2. Freunde, Kollegen und ich!"
+198,die Adresse,Address,"Chapter 2. Freunde, Kollegen und ich!"
+199,die Handynummer,Mobile number,"Chapter 2. Freunde, Kollegen und ich!"
+200,die Postleitzahl,Postal code,"Chapter 2. Freunde, Kollegen und ich!"
+201,die Schule,School,"Chapter 2. Freunde, Kollegen und ich!"
+202,die Firma,Company,"Chapter 2. Freunde, Kollegen und ich!"
+203,der Kurs,Course,"Chapter 2. Freunde, Kollegen und ich!"

@@ -1,6 +1,6 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit, inject } from '@angular/core';
 import { Flashcard as FlashcardModel } from '../../models/flashcard';
-import { GERMAN_A1_CARDS } from '../../data/german-a1';
+import { FlashcardData } from '../../services/flashcard-data';
 
 @Component({
   selector: 'app-flashcard',
@@ -8,42 +8,64 @@ import { GERMAN_A1_CARDS } from '../../data/german-a1';
   templateUrl: './flashcard.html',
   styleUrl: './flashcard.css',
 })
-export class Flashcard {
-  cards: FlashcardModel[] = GERMAN_A1_CARDS;
-  selectedCategory = 'All';
-  filteredCards: FlashcardModel[] = [...GERMAN_A1_CARDS];
+export class Flashcard implements OnInit {
+  private flashcardData = inject(FlashcardData);
+
+  cards: FlashcardModel[] = [];
+  filteredCards: FlashcardModel[] = [];
   categories: string[] = [];
 
+  selectedCategory = 'All';
   currentIndex = 0;
   showAnswer = false;
+  loading = true;
+  error = '';
 
-  constructor() {
-    this.categories = ['All', ...new Set(this.cards.map((card) => card.category))];
+  ngOnInit(): void {
+    this.flashcardData.loadCards().subscribe({
+      next: (cards) => {
+        this.cards = cards;
+        this.filteredCards = [...cards];
+
+        this.categories = ['All', ...new Set(cards.map((card) => card.category))];
+
+        this.loading = false;
+      },
+      error: (err) => {
+        console.error('Failed to load flashcards:', err);
+        this.error = 'Unable to load vocabulary. Please try again.';
+        this.loading = false;
+      },
+    });
   }
 
-  get currentCard(): FlashcardModel {
+  get currentCard(): FlashcardModel | undefined {
     return this.filteredCards[this.currentIndex];
   }
 
-  flipCard() {
-    this.showAnswer = !this.showAnswer;
+  flipCard(): void {
+    if (this.filteredCards.length > 0) {
+      this.showAnswer = !this.showAnswer;
+    }
   }
 
-  nextCard() {
+  nextCard(): void {
     if (this.currentIndex < this.filteredCards.length - 1) {
+      this.showAnswer = false;
       this.currentIndex++;
-      this.showAnswer = false;
     }
   }
 
-  previousCard() {
+  previousCard(): void {
     if (this.currentIndex > 0) {
-      this.currentIndex--;
       this.showAnswer = false;
+      this.currentIndex--;
     }
   }
 
-  shuffleCards() {
+  shuffleCards(): void {
+    this.filteredCards = [...this.filteredCards];
+
     for (let i = this.filteredCards.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
 
@@ -57,30 +79,27 @@ export class Flashcard {
     this.showAnswer = false;
   }
 
-  selectCategory(category: string) {
+  selectCategory(category: string): void {
     this.selectedCategory = category;
 
-    if (category === 'All') {
-      this.filteredCards = [...this.cards];
-    } else {
-      this.filteredCards = this.cards.filter((card) => card.category === category);
-    }
+    this.filteredCards =
+      category === 'All'
+        ? [...this.cards]
+        : this.cards.filter((card) => card.category === category);
 
     this.currentIndex = 0;
     this.showAnswer = false;
   }
 
   @HostListener('window:keydown', ['$event'])
-  handleKeyboard(event: KeyboardEvent) {
+  handleKeyboard(event: KeyboardEvent): void {
     switch (event.key) {
       case 'ArrowLeft':
         this.previousCard();
         break;
-
       case 'ArrowRight':
         this.nextCard();
         break;
-
       case ' ':
         event.preventDefault();
         this.flipCard();
